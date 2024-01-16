@@ -6,20 +6,28 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>About RAJIT</h1>
       </header>
+      <table className = "aboutme">
+        <tr>
+          <th>Question:</th>
+          <th>Answer:</th>
+        </tr>
+        <tr>
+          <td>Favorite Quote?</td>
+          <td>None to be honest I dont know Bla Bla Random quote</td>
+        </tr>
+        <tr>
+          <td>Nicknames?</td>
+          <td>No not really more blabbering blah blah blah</td>
+        </tr>
+        <tr>
+          <td>Favorite Activites/Hobbies?</td>
+          <td>Idk playing videogames and sports and something</td>
+        </tr>
+      </table>
     </div>
+
   );
 }
 
